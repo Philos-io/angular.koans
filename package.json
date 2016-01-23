@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
+    "server": "nodemon server/",
     "test": "karma start"
   },
   "keywords": [
@@ -16,10 +17,13 @@
   "author": "davy@philos.io",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.4"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.9",
     "live-server": "^0.9.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1"
   }
 }
