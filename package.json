@@ -1,0 +1,26 @@
+{
+  "name": "angular.koans",
+  "version": "1.0.0",
+  "description": "JS & Angular bootcamp by Philos Lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "mocha -w"
+  },
+  "keywords": [
+    "angular",
+    "bootcamp",
+    "philos.io",
+    "javascript"
+  ],
+  "author": "davy@philos.io",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.9",
+    "live-server": "^0.9.1",
+    "mocha": "^2.3.4"
+  }
+}
