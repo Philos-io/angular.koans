@@ -4,8 +4,7 @@
   "description": "JS & Angular bootcamp by Philos Lab",
   "main": "index.js",
   "scripts": {
-    "start": "live-server",
-    "test": "karma start"
+    "start": "live-server"
   },
   "keywords": [
     "angular",
@@ -18,7 +17,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "angular-mocks": "^1.4.9",
     "live-server": "^0.9.1",
     "mocha": "^2.3.4"
   }
