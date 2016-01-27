@@ -19,5 +19,3 @@ var bookService = function(){
 var book = bookService();
 book.get();
 
-var book:Service = function(){
-}
