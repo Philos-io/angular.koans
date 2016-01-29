@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
-    "server": "nodemon server/"
+    "server": "nodemon server/",
+    "deploy": "surge -p workshops/02_debugging_modularisation/solution_broken_app"
   },
   "keywords": [
     "angular",
