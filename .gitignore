@@ -1,2 +1,3 @@
 node_modules/
 workshops/**/solution
+workshops/**/*.js.map
