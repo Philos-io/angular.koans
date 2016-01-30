@@ -2,10 +2,10 @@ var path = require('path');
 
 module.exports = {
   devtool: 'source-map',
-  entry: './workshops/03_webpack_es6_directives/index.js',
+  entry: './workshops/04_directives_forms_components/index.js',
   output: {
     filename: 'bookstore.js',
-    path: path.join(__dirname, './workshops/03_webpack_es6_directives/')
+    path: path.join(__dirname, './workshops/04_directives_forms_components/')
   },
   module: {
     loaders: [
