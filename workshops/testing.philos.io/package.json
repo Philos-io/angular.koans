@@ -1,0 +1,19 @@
+{
+  "name": "testing.philos.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "angular-mocks": "^1.4.9",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "angular": "^1.4.9"
+  }
+}
