@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
-    "server": "nodemon server/"
+    "server": "nodemon server/",
+    "deploy": "surge -p workshops/02_debugging_modularisation/solution_broken_app",
+    "es6": "webpack -w"
   },
   "keywords": [
     "angular",
@@ -20,6 +22,9 @@
     "express": "^4.13.4"
   },
   "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
     "live-server": "^0.9.1",
     "mocha": "^2.3.4",
     "nodemon": "^1.8.1",

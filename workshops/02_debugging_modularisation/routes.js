@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  routes = function($routeProvider){
+  var routes = function($routeProvider){
     $routeProvider
       .when('/', {
         templateUrl: './templates/books.html',

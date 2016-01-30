@@ -4,6 +4,10 @@ body {
 	flex-direction: column;
 }	
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
 .card .card-content .card-title {
   line-height: 12px;
     font-size: 18px;
